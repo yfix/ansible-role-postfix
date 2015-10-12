@@ -1,6 +1,6 @@
 # Ansible Role: Postfix
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-postfix.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-postfix)
+[![Build Status](https://travis-ci.org/yfix/ansible-role-postfix.svg?branch=master)](https://travis-ci.org/yfix/ansible-role-postfix)
 
 Installs postfix on RedHat/CentOS or Debian/Ubuntu.
 
@@ -20,12 +20,4 @@ None.
 
     - hosts: all
       roles:
-        - { role: geerlingguy.postfix }
-
-## License
-
-MIT / BSD
-
-## Author Information
-
-This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
+        - { role: yfix.postfix }
